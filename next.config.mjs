@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/app',
-  assetPrefix: '/app',
-  output: 'standalone'
+  output: 'standalone',
+  trailingSlash: true,
+  experimental: {
+    serverActions: true,
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;

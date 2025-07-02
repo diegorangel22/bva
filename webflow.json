@@ -1,6 +1,5 @@
 {
-    "cloud": {
+  "cloud": {
       "framework": "nextjs"
-    }
   }
-  
+}
